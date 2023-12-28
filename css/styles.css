@@ -1,0 +1,240 @@
+body{
+    font-family: 'Catamaran', sans-serif;
+    padding: 0;
+    margin:0;
+    text-align: center;
+    background-color: #FFF9C9;
+}
+
+h2{
+    line-height: 1.5;
+    font-family: 'Domine', serif;
+}
+
+hr{
+    border:dotted #B2A59B;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+
+.top-container {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-container::before {    
+      content: "";
+      background-image: url('https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d29ya3xlbnwwfHwwfHx8MA%3D%3D');
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0.75;
+}
+
+
+
+.organizer{
+    position: relative;
+    top: 30%;  
+    font-size: 6rem;
+    line-height: 0.9;
+    text-align: center;
+    min-height: 100vh;
+    font-family: 'Kalnia', serif;
+
+}
+
+.organizer-description{
+    position: absolute;
+    top: 45%;
+    font-size: 1.2rem;
+    line-height: 2;
+    min-height: 100vh;
+}
+
+
+.btn {
+    position:absolute;
+    bottom: 35%;
+    background: #282A3A;
+    background-image: -webkit-linear-gradient(top, #282A3A, #000000);
+    background-image: -moz-linear-gradient(top, #282A3A, #000000);
+    background-image: -ms-linear-gradient(top, #282A3A, #000000);
+    background-image: -o-linear-gradient(top, #282A3A, #000000);
+    background-image: linear-gradient(to bottom, #282A3A, #000000);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Cinzel', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #5C8374;
+    background-image: -webkit-linear-gradient(top, #5C8374, #183D3D);
+    background-image: -moz-linear-gradient(top, #5C8374, #183D3D);
+    background-image: -ms-linear-gradient(top, #5C8374, #183D3D);
+    background-image: -o-linear-gradient(top, #5C8374, #183D3D);
+    background-image: linear-gradient(to bottom, #5C8374, #183D3D);
+    text-decoration: none;
+  }
+
+
+
+.track{
+    position: relative;
+    top: 5%;
+}
+
+
+.middle-container{
+    margin:auto;
+    height: 100vh;
+    width: 100%;
+    position:relative;
+    display: block;
+    min-height: auto;
+}
+
+.newtasks{
+    position: relative;
+    top: 5%;
+    width: 20%;
+    height: 75%;
+    margin: 10px;
+    display: inline-block; 
+    background-color: #FF8080;   
+}
+.curtasks{
+    position: relative;
+    top: 5%;
+    width: 20%;
+    height:75%;
+    margin: 10px;
+    display: inline-block; 
+    background-color: #DDFFBC;
+
+}
+
+.waittasks{
+    position: relative;
+    top: 5%;
+    width: 20%;
+    height: 75%;
+    margin: 10px;
+    display: inline-block; 
+    background-color: #F55C47;
+
+}
+
+.tasksdone{
+    position: relative;
+    top: 5%;
+    width: 20%;
+    height: 75%;
+    margin: 10px;
+    display: inline-block; 
+    background-color: #91C788;
+    min-height: auto;
+}
+
+
+input[type=text], select, textarea {
+    width: 97%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #CC561E;
+    font-family: 'Cinzel', serif;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #EF8D32;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #FCE09B;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+.bottom-container{
+    background-color: #D67D3E;
+    padding: 50px 0 20px;
+}
+
+.copyright{
+  color:#862B0D;
+  font-size:0.75rem;
+  padding: 20px 0;
+}
+
+a{
+  color:#6C3428;
+  margin:10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#BA704F;
+}
+
+
+
+
+
+/* https://colorhunt.co/palette/ecf4d69ad0c22d9596265073 */

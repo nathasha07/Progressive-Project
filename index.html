@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Job Board</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cinzel:wght@600&family=Domine:wght@500&family=Kalnia:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-container">
+        <h1 class="organizer">ORGANIZER</h1>
+        <p class="organizer-description"><b>A job board to Organize your Career</b></p>
+        <button class="btn" type="button">ADD NEW TASK</button>
+    </div>
+
+
+    <div class="middle-container">
+        <h1 class="track">Track Your Tasks</h1>
+        <div class="newtasks">
+            <h2>New Tasks</h2>
+            <ul class="newTasks">
+            <!--new tasks to be added-->
+            </ul>
+        </div>
+
+        <div class="curtasks">
+            <h2>Tasks In Progress</h2>
+            <ul class="currentTasks">
+            <!--tasks in progress to be added-->
+            </ul>
+
+        </div>
+
+        <div class="waittasks">
+            <h2>Waiting Tasks</h2>
+            <ul class="waitingTasks">
+            <!--waiting tasks to be added-->
+            </ul>
+
+        </div>
+
+        <div class="tasksdone">
+            <h2>Completed Tasks</h2>
+            <ul class="completedTasks">
+            <!--completed tasks added here-->
+            </ul>
+
+        </div>
+        <div class="taskdetails">
+        <!--task details to be displayed-->
+        </div>
+    </div>    
+    
+    <hr>
+
+    <div class="container">
+        <h2>New Task Form</h2>
+        <form>
+        <div class="row">
+          <div class="col-25">
+            <label for="title">Title</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="title" name="Title" placeholder="Enter title of the task">
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Task description</label>
+          </div>
+          <div class="col-75">
+            <textarea id="description" name="description" placeholder="Write something.." style="height:100px"></textarea>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+        </form>
+      </div>
+  
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/nathasha-vipin-81b11228b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+        <a class="footer-link" href="https://x.com/NathashaVipin?t=49BWoPlLJayYrlWY0o4n1A&s=09">Twitter</a>
+        <a class="footer-link" href="https://www.instagram.com/nyx_nat_?igsh=MXVvcGo3dGx1bHd3bw==">Instagram</a>
+        <p class="copyright">© Nathasha Vipin.</p>
+    </div>    
+
+</body>
+</html>
